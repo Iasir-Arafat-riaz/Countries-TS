@@ -1,6 +1,7 @@
 import {
     Button,
     Grid,
+    Grid2,
     Pagination
 } from "@mui/material";
 import {
@@ -111,7 +112,9 @@ const Countries = () => {
                                 }
                             </Grid>
                         </> :
-                        <h2>No Recently Views Countries available</h2>
+                        <div className="recently-view-header">
+                            <h2>No Recently Views Countries available</h2>
+                        </div>
                     }
                 </>
             }
